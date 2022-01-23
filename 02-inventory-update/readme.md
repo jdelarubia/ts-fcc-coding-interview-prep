@@ -21,23 +21,8 @@ updateInventory(
     [7, "Toothpaste"],
   ]
 );
-//should return an array with a length of 6.
-
-updateInventory(
-  [
-    [21, "Bowling Ball"],
-    [2, "Dirty Sock"],
-    [1, "Hair Pin"],
-    [5, "Microphone"],
-  ],
-  [
-    [2, "Hair Pin"],
-    [3, "Half-Eaten Apple"],
-    [67, "Bowling Ball"],
-    [7, "Toothpaste"],
-  ]
-);
-// should return [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"], [3, "Half-Eaten Apple"], [5, "Microphone"], [7, "Toothpaste"]].
+// should return an array with a length of 6.
+// [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"], [3, "Half-Eaten Apple"], [5, "Microphone"], [7, "Toothpaste"]].
 
 updateInventory(
   [
@@ -48,7 +33,8 @@ updateInventory(
   ],
   []
 );
-// should return [[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]].
+// should return an array with a length of 4.
+// [[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]].
 
 updateInventory(
   [],
@@ -59,7 +45,8 @@ updateInventory(
     [7, "Toothpaste"],
   ]
 );
-// should return [[67, "Bowling Ball"], [2, "Hair Pin"], [3, "Half-Eaten Apple"], [7, "Toothpaste"]].
+// should return an array of length 4.
+// [[67, "Bowling Ball"], [2, "Hair Pin"], [3, "Half-Eaten Apple"], [7, "Toothpaste"]].
 
 updateInventory(
   [
@@ -75,7 +62,8 @@ updateInventory(
     [1, "Toothpaste"],
   ]
 );
-// should return [[1, "Bowling Ball"], [0, "Dirty Sock"], [1, "Hair Pin"], [1, "Half-Eaten Apple"], [0, "Microphone"], [1, "Toothpaste"]].
+// should return an array of length 6.
+// [[1, "Bowling Ball"], [0, "Dirty Sock"], [1, "Hair Pin"], [1, "Half-Eaten Apple"], [0, "Microphone"], [1, "Toothpaste"]].
 ```
 
 ---
