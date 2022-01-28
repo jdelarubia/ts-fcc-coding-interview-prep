@@ -26,12 +26,6 @@ function joinDicts(dict1: Inventory, dict2: Inventory): Inventory {
   return dict1;
 } //.
 
-function dictFromArrays(arr1: any[], arr2: any[]): Inventory {
-  const d1: Inventory = dictFromArray(arr1);
-  const d2: Inventory = dictFromArray(arr2);
-  return joinDicts(d1, d2);
-} //.
-
 function arrayFromDict(inventory: Inventory): InventoryEntry[] {
   const arr: [number, string][] = [];
   for (const item in inventory) {
