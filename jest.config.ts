@@ -11,7 +11,10 @@ const config: Config.InitialOptions = {
   rootDir: "./",
 
   // A list of paths to directories that Jest should use to search for files in
-  roots: ["./01-find-symmetric-difference/tests"],
+  roots: [
+    "./01-find-symmetric-difference/tests",
+    "./02-inventory-update/tests",
+  ],
 
   // The glob patterns Jest uses to detect test files
   testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
