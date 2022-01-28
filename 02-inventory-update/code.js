@@ -21,11 +21,6 @@ function joinDicts(dict1, dict2) {
     }
     return dict1;
 } //.
-function dictFromArrays(arr1, arr2) {
-    const d1 = dictFromArray(arr1);
-    const d2 = dictFromArray(arr2);
-    return joinDicts(d1, d2);
-} //.
 function arrayFromDict(inventory) {
     const arr = [];
     for (const item in inventory) {
