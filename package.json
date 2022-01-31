@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "WATCH": "tsc --watch",
-    "test": "jest --watch --coverage",
+    "test": "jest --watch",
     "cover": "jest --coverage"
   },
   "repository": {
